@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DrunkChat</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <div id="logo">DrunkChat</div>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Profile</a></li>
+                <li><a href="#">Chatrooms</a></li>
+                <li><a href="#">Settings</a></li>
+            </ul>
+        </nav>
+        <div id="auth">
+            <button id="loginButton">Login / Register</button>
+            <span id="username"></span>
+            <img id="avatar" src="default-avatar.png" alt="Avatar">
+        </div>
+    </header>
+    <main>
+        <aside id="chatRooms">
+            <h2>Chatrooms</h2>
+            <ul>
+                <li><button class="roomButton" data-room="general">General</button></li>
+                <li><button class="roomButton" data-room="sports">Sports</button></li>
+                <li><button class="roomButton" data-room="technology">Technology</button></li>
+                <li><button class="roomButton" data-room="random">Random</button></li>
+            </ul>
+        </aside>
+        <div id="chatContainer">
+            <div id="chatMessages"></div>
+            <div id="chatInput">
+                <input type="text" id="messageInput" placeholder="Type your message here...">
+                <button id="emojiButton">😊</button>
+                <button id="sendButton">Send</button>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2024 DrunkChat. All rights reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

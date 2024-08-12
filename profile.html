@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DrunkChat - Profile</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div id="logo">DrunkChat</div>
+        <div id="auth">
+            <span id="username"></span>
+            <img id="avatar" src="default-avatar.png" alt="Avatar">
+            <button id="logoutButton">Logout</button>
+        </div>
+    </header>
+    <main>
+        <section id="profileDetails">
+            <h1>Your Profile</h1>
+            <div id="profileCard">
+                <img id="profileAvatar" src="default-avatar.png" alt="Profile Avatar">
+                <div id="profileInfo">
+                    <h2 id="profileUsername">Username</h2>
+                    <p id="profileBio">Bio: Tell us something about yourself!</p>
+                </div>
+            </div>
+            <button id="editProfileButton">Edit Profile</button>
+        </section>
+        <section id="recentActivity">
+            <h2>Recent Activity</h2>
+            <ul id="activityList">
+                <li>Joined <strong>General Chatroom</strong></li>
+                <li>Posted in <strong>Sports Chatroom</strong></li>
+                <li>Liked a message in <strong>Technology Chatroom</strong></li>
+            </ul>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 DrunkChat. All rights reserved.</p>
+    </footer>
+    <script src="profile.js"></script>
+</body>
+</html>
